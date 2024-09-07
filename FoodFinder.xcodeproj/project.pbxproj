@@ -14,6 +14,9 @@
 		C058E5EE2C8A0BCF00621103 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E5ED2C8A0BCF00621103 /* MainTabView.swift */; };
 		C058E5F12C8A0D7800621103 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E5F02C8A0D7800621103 /* CardView.swift */; };
 		C058E5F32C8A0FF200621103 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E5F22C8A0FF200621103 /* UserInfoView.swift */; };
+		C058E5F52C8CED9500621103 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E5F42C8CED9500621103 /* SwipeActionIndicatorView.swift */; };
+		C058E5F82C8CEF6900621103 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E5F72C8CEF6900621103 /* SizeConstants.swift */; };
+		C0EB21BB2C8CF34F007047A4 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB21BA2C8CF34F007047A4 /* ImageScrollingOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		C058E5ED2C8A0BCF00621103 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		C058E5F02C8A0D7800621103 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C058E5F22C8A0FF200621103 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		C058E5F42C8CED9500621103 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
+		C058E5F72C8CEF6900621103 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
+		C0EB21BA2C8CF34F007047A4 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 		C058E5E72C8A0B6900621103 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C058E5F62C8CEF5700621103 /* Constants */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -160,8 +167,18 @@
 			children = (
 				C058E5F02C8A0D7800621103 /* CardView.swift */,
 				C058E5F22C8A0FF200621103 /* UserInfoView.swift */,
+				C058E5F42C8CED9500621103 /* SwipeActionIndicatorView.swift */,
+				C0EB21BA2C8CF34F007047A4 /* ImageScrollingOverlay.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C058E5F62C8CEF5700621103 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C058E5F72C8CEF6900621103 /* SizeConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +251,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EB21BB2C8CF34F007047A4 /* ImageScrollingOverlay.swift in Sources */,
 				C058E5EE2C8A0BCF00621103 /* MainTabView.swift in Sources */,
+				C058E5F52C8CED9500621103 /* SwipeActionIndicatorView.swift in Sources */,
 				C02DB08A2C8911810096F9AE /* ContentView.swift in Sources */,
 				C058E5F12C8A0D7800621103 /* CardView.swift in Sources */,
+				C058E5F82C8CEF6900621103 /* SizeConstants.swift in Sources */,
 				C02DB0882C8911810096F9AE /* FoodFinderApp.swift in Sources */,
 				C058E5F32C8A0FF200621103 /* UserInfoView.swift in Sources */,
 			);
