@@ -17,6 +17,8 @@
 		C058E5F52C8CED9500621103 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E5F42C8CED9500621103 /* SwipeActionIndicatorView.swift */; };
 		C058E5F82C8CEF6900621103 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058E5F72C8CEF6900621103 /* SizeConstants.swift */; };
 		C0EB21BB2C8CF34F007047A4 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB21BA2C8CF34F007047A4 /* ImageScrollingOverlay.swift */; };
+		C0EB21BD2C90CBAD007047A4 /* CardImageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB21BC2C90CBAD007047A4 /* CardImageIndicatorView.swift */; };
+		C0EB21BF2C90CF3C007047A4 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB21BE2C90CF3C007047A4 /* CardStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		C058E5F42C8CED9500621103 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		C058E5F72C8CEF6900621103 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 		C0EB21BA2C8CF34F007047A4 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
+		C0EB21BC2C90CBAD007047A4 /* CardImageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageIndicatorView.swift; sourceTree = "<group>"; };
+		C0EB21BE2C90CF3C007047A4 /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 				C058E5F22C8A0FF200621103 /* UserInfoView.swift */,
 				C058E5F42C8CED9500621103 /* SwipeActionIndicatorView.swift */,
 				C0EB21BA2C8CF34F007047A4 /* ImageScrollingOverlay.swift */,
+				C0EB21BC2C90CBAD007047A4 /* CardImageIndicatorView.swift */,
+				C0EB21BE2C90CF3C007047A4 /* CardStackView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,6 +261,8 @@
 				C058E5EE2C8A0BCF00621103 /* MainTabView.swift in Sources */,
 				C058E5F52C8CED9500621103 /* SwipeActionIndicatorView.swift in Sources */,
 				C02DB08A2C8911810096F9AE /* ContentView.swift in Sources */,
+				C0EB21BD2C90CBAD007047A4 /* CardImageIndicatorView.swift in Sources */,
+				C0EB21BF2C90CF3C007047A4 /* CardStackView.swift in Sources */,
 				C058E5F12C8A0D7800621103 /* CardView.swift in Sources */,
 				C058E5F82C8CEF6900621103 /* SizeConstants.swift in Sources */,
 				C02DB0882C8911810096F9AE /* FoodFinderApp.swift in Sources */,

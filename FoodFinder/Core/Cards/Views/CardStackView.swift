@@ -9,7 +9,11 @@ import SwiftUI
 
 struct CardStackView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            ForEach(0 ..< 10) {card in
+                CardView()
+            }
+        }
     }
 }
 
